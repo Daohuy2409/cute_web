@@ -64,7 +64,7 @@ const Message = styled(motion.p)`
   line-height: 1.7;
   color: #333;
   margin-bottom: 25px;
-  font-family: 'Comic Sans MS', 'Bubblegum Sans', 'Indie Flower', cursive;
+  font-family: Pacifico, cursive;
   text-align: center;
   position: relative;
   
@@ -111,7 +111,9 @@ const Button = styled(motion.button)`
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &:before {
     content: '';
     position: absolute;
